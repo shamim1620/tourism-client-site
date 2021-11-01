@@ -8,39 +8,51 @@ import Packages from './components/Packages/Packages';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import AddService from './components/AddService/AddService';
+import Booking from './components/Booking/Booking';
+import Login from './components/Login/Login';
+import AuthProvider from './Context/AuthProvider';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Header></Header>
-        <Switch>
-          <Route exact path='/'>
-            <Home></Home>
-          </Route>
-          <Route path="/addService">
-            <AddService></AddService>
-          </Route>
-          <Route path="/home">
-            <Home></Home>
+      <AuthProvider>
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path='/'>
+              <Home></Home>
+            </Route>
+            <Route path="/addService">
+              <AddService></AddService>
+            </Route>
+            <Route path="/home">
+              <Home></Home>
 
-          </Route>
-          <Route path="/packages">
-            <Packages></Packages>
+            </Route>
+            <Route path="/login">
+              <Login></Login>
 
-          </Route>
-          <Route path="/blog">
-            <Blog></Blog>
+            </Route>
+            <Route path="/packages">
+              <Packages></Packages>
 
-          </Route>
-          <Route path="/about">
-            <About></About>
+            </Route>
+            <Route path="/booking/:serviceId">
+              <Booking></Booking>
+            </Route>
+            <Route path="/blog">
+              <Blog></Blog>
 
-          </Route>
-        </Switch>
+            </Route>
+            <Route path="/about">
+              <About></About>
 
-        <Footer></Footer>
-      </Router>
+            </Route>
+          </Switch>
+
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
 
     </div>
   );
