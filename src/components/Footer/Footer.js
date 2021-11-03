@@ -6,12 +6,12 @@ const Footer = () => {
         <div className="bg-dark text-white">
 
             <Row>
-                <Col>
+                <Col xs="6" lg="3">
                     <h1>Explorer</h1>
                     <br />
                     <p className="d-flex align-items-center">Find best deals at Explorer.com.bd for Flight Tickets, Hotels, Holiday Packages. Book cheap air tickets , customized holiday packages and special deals on Hotel.</p>
                 </Col>
-                <Col>
+                <Col xs="6" lg="3">
                     <h2>Contact Us</h2>
                     <br />
                     <div className='d-flex justify-content-center align-items-center'>
@@ -35,7 +35,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </Col>
-                <Col>
+                <Col xs="6" lg="3">
                     <h2>Suppoort</h2>
                     <br />
                     <p>Contact Us</p>
@@ -43,7 +43,7 @@ const Footer = () => {
                     <p>Our Blog </p>
                     <p>Packages</p>
                 </Col>
-                <Col>
+                <Col xs="6" lg="3">
                     <h2>We Accepts:</h2>
                     <br />
                     <div className="d-flex justify-content-center align-items-center">

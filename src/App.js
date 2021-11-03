@@ -25,15 +25,17 @@ function App() {
             <Route exact path='/'>
               <Home></Home>
               <Packages></Packages>
-            </Route>
-            <Route path="/addService">
-              <AddService></AddService>
+              <Blog></Blog>
             </Route>
             <Route path="/home">
               <Home></Home>
               <Packages></Packages>
-
+              <Blog></Blog>
             </Route>
+            <Route path="/addService">
+              <AddService></AddService>
+            </Route>
+
             <Route path="/login">
               <Login></Login>
 

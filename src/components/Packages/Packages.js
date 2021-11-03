@@ -15,7 +15,7 @@ const Packages = () => {
             })
     }, [])
     return (
-        <div>
+        <div className="container mt-4">
             <Row xs={1} md={3} className="g-4">
 
                 {

@@ -9,7 +9,7 @@ const Cart = (props) => {
         <div>
             <Col>
                 <Card>
-                    <Card.Img variant="top" src={image_url} />
+                    <Card.Img variant="top" height="220px" src={image_url} />
                     <Card.Body>
                         <Card.Title>{title}</Card.Title>
                         <Card.Text>
