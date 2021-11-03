@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className=" mt-5 my-5 container">
+        <div className=" mt-5 my-5 container ">
             <h1>Blogs</h1>
             <div className='d-flex justify-content-center align-items-center'>
                 <div className="m-2">
