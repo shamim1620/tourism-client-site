@@ -25,6 +25,7 @@ const Header = () => {
                                 {
                                     user?.email && <Nav.Link as={NavLink} to="/addService">Add Service</Nav.Link>
                                 }
+                                {user?.email && <Nav.Link as={NavLink} to="/myorder">Orders</Nav.Link>}
 
 
 
@@ -33,6 +34,7 @@ const Header = () => {
                                 {user?.email ?
                                     <Button onClick={logOut} variant="light">Logout</Button> :
                                     <Nav.Link as={Link} to="/login">Login</Nav.Link>}
+
                                 <Navbar.Text>
                                     Signed in as: <a href="#login">{user?.displayName}</a>
                                 </Navbar.Text>

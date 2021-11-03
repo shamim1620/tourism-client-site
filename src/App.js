@@ -12,6 +12,8 @@ import Booking from './components/Booking/Booking';
 import Login from './components/Login/Login';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import UpdatePakages from './components/UpdatePakages/UpdatePakages';
+import Order from './components/Order/Order';
 
 function App() {
   return (
@@ -41,10 +43,16 @@ function App() {
             </Route>
             <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
+
+            </PrivateRoute>
+            <PrivateRoute path="/update/:id">
+              <UpdatePakages></UpdatePakages>
             </PrivateRoute>
             <Route path="/blog">
               <Blog></Blog>
-
+            </Route>
+            <Route path="/myorder">
+              <Order></Order>
             </Route>
             <Route path="/about">
               <About></About>
