@@ -13,11 +13,11 @@ const Booking = () => {
     return (
         <div className="container m-5">
 
-            <Row xs={1} md={1} className="g-4">
+            <Row xs={1} md={3} className="g-4">
 
                 <Col>
                     <Card>
-                        <Card.Img variant="top" src={service.img} />
+                        <Card.Img variant="top" src={service.image_url} />
                         <Card.Body>
                             <Card.Title>{service.name}</Card.Title>
                             <Card.Text>

@@ -17,12 +17,10 @@ const AddService = () => {
         <div className='add-service mt-5'>
             <h3>Add New Service</h3>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <input {...register("title")} />
-                <textarea {...register("description")} />
-                <input {...register("name")} />
-                <input {...register("price")} type="number" />
-                <input {...register("image-url")} />
-
+                <input placeholder="title" {...register("title")} />
+                <input placeholder="image" {...register("image_url")} />
+                <textarea placeholder="description" {...register("description")} />
+                <input placeholder="price" {...register("price")} type="number" />
 
                 <input type="submit" />
             </form>
