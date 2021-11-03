@@ -24,6 +24,7 @@ function App() {
           <Switch>
             <Route exact path='/'>
               <Home></Home>
+              <Packages></Packages>
             </Route>
             <Route path="/addService">
               <AddService></AddService>

@@ -65,14 +65,7 @@ const UpdatePakege = () => {
             })
 
 
-        // axios.post('https://radiant-hollows-38398.herokuapp.com/packages/:id', data)
-        //  .then(res => {
-        //      if (res.data.insertedId) {
-        //          alert('Succesfully Added New Service')
-        //      }
-        //      console.log(res);
-        //      reset();
-        //  })
+
     }
 
 
