@@ -16,9 +16,9 @@ const Home = () => {
                         src={tour}
                         alt="First slide"
                     />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <Carousel.Caption className="text-black">
+                        <h3>Travel Whole World</h3>
+                        <p>Explorer is your best tour partner</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500} className="carousel-item">
@@ -28,8 +28,8 @@ const Home = () => {
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Safety First</h3>
+                        <p>Your safety our responsibility.We have trustable hotel and transpor </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="carousel-item">
@@ -39,8 +39,8 @@ const Home = () => {
                         alt="Third slide"
                     />
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>Custom Package</h3>
+                        <p>Save money and tour with us. It will be best experience in your life</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
