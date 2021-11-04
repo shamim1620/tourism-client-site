@@ -8,7 +8,7 @@ const AddService = () => {
     const onSubmit = data => {
         console.log(data);
 
-        axios.post('http://localhost:5000/addService', data)
+        axios.post('https://tranquil-springs-05915.herokuapp.com/addService', data)
             .then(res => {
                 console.log(res)
             })

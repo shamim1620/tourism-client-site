@@ -7,7 +7,7 @@ const Cart = () => {
     const { deleteSingleOrder, allContext } = useAuth();
     const [orders, setOrders] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/myorder')
+        fetch('https://tranquil-springs-05915.herokuapp.com/myorder')
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [orders]);

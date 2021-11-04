@@ -8,7 +8,7 @@ const UpdatePakege = () => {
     const { register, handleSubmit, reset } = useForm();
 
     useEffect(() => {
-        const url = `http://localhost:5000/services/${id}`
+        const url = `https://tranquil-springs-05915.herokuapp.com/services/${id}`
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -48,7 +48,7 @@ const UpdatePakege = () => {
     const onSubmit = data => {
         console.log(data);
 
-        const url = `http://localhost:5000/services/${id}`
+        const url = `https://tranquil-springs-05915.herokuapp.com/services/${id}`
         fetch(url, {
             method: 'PUT',
             headers: {

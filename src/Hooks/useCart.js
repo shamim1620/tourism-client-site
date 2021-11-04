@@ -20,7 +20,7 @@ const useCart = () => {
         if (isHave) {
             alert("Add to your offer");
         } else {
-            fetch("http://localhost:5000/addtocart", {
+            fetch("https://tranquil-springs-05915.herokuapp.com/addtocart", {
                 method: "post",
                 headers: { "content-type": "application/json" },
                 body: JSON.stringify(plan),
@@ -36,7 +36,7 @@ const useCart = () => {
         }
     };
     const deleteSingleOrder = id => {
-        fetch(`http://localhost:5000/deleteCart/${id}`, {
+        fetch(`https://tranquil-springs-05915.herokuapp.com/deleteCart/${id}`, {
 
             method: 'DELETE'
         })

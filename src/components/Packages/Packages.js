@@ -6,7 +6,7 @@ const Packages = () => {
     const [tickets, setTickets] = useState([]);
 
     useEffect(() => {
-        const url = `http://localhost:5000/services`
+        const url = `https://tranquil-springs-05915.herokuapp.com/services`
         fetch(url)
             .then(res => res.json())
             .then(data => {
