@@ -2,7 +2,9 @@
  A full-stack responsive service selling web app. That's also multipage. That’s a multipage website where you can find different holiday packages and buy them.
 # Features
 ●	People can select and order services.
+</br>
 ●	Login and authentication using google.
+</br>
 ●	People can see his / her ordered services.
 ●	Order history page created
 Technology: React.js, Rest Api, React Router, React Hook Form, Node.js, Express.js, MongoDB, React Bootstrap, Heroku, Firebase, HTML, CSS.
