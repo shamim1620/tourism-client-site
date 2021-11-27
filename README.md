@@ -1,5 +1,5 @@
 # Explorer
-Live Website: https://tourism-d1946.web.app/home
+Live Website: https://tourism-d1946.web.app/
 </br>
 A full-stack responsive service selling web app. That's also multipage. That’s a multipage website where you can find different holiday packages and buy them.
 ## Features
